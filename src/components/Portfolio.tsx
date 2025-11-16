@@ -75,20 +75,20 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="flex gap-4 overflow-x-auto pb-4">
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className={`group relative overflow-hidden bg-white border border-gray-200 transition-all duration-700 hover:border-slate-400 ${
+              className={`group relative overflow-hidden bg-white border border-gray-200 transition-all duration-700 hover:border-slate-400 flex-shrink-0 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
               }`}
-              style={{ transitionDelay: `${idx * 150}ms` }}
+              style={{ transitionDelay: `${idx * 150}ms`, width: '350px' }}
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 grayscale"
                 />
               </div>
 
