@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Mail, Phone, MapPin } from 'lucide-react';
 import { useState } from 'react';
 
 const Footer = () => {
@@ -32,12 +32,6 @@ const Footer = () => {
                 className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-slate-500 hover:text-slate-700 transition-all duration-300 group"
               >
                 <Facebook className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-slate-500 hover:text-slate-700 transition-all duration-300 group"
-              >
-                <Linkedin className="w-4 h-4" />
               </a>
             </div>
           </div>
