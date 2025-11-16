@@ -25,15 +25,20 @@ const Footer = () => {
               Building the future with precision, integrity, and innovation since 2017.
             </p>
             <div className="flex gap-4">
-              {[Facebook, Linkedin].map((Icon, idx) => (
-                <a
-                  key={idx}
-                  href="#"
-                  className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-slate-500 hover:text-slate-700 transition-all duration-300 group"
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
+              <a
+                href="https://www.facebook.com/jothomconstruction"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-slate-500 hover:text-slate-700 transition-all duration-300 group"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-slate-500 hover:text-slate-700 transition-all duration-300 group"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
             </div>
           </div>
 
