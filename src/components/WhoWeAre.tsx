@@ -31,7 +31,7 @@ const WhoWeAre = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-slate-400/20 to-transparent z-10" />
             <div className="absolute top-0 left-0 w-full h-full border-2 border-slate-400 transform translate-x-4 translate-y-4" />
             <img
-              src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/jothom5.jpg"
               alt="Construction Excellence"
               className="relative z-20 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
